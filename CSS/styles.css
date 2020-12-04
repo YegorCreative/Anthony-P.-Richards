@@ -121,6 +121,8 @@ display: flex;
 .footerMain {
   min-width: 320px;
   max-width: 1440px;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   background-color: #93b7be;
   display: flex;
