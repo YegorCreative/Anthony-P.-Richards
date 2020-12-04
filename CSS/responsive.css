@@ -22,4 +22,9 @@
   .headerRow {
     font-size: 2.5em;
   }
+  .linkss {
+    width: 280px;
+    height: 280px;
+    font-size: 150px;
+  }
 }
