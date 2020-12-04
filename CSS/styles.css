@@ -130,6 +130,8 @@ display: flex;
   max-width: 1440px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   background-color: #93b7be;
   display: flex;
