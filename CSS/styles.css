@@ -38,7 +38,6 @@ body {
 .headerRow {
   min-width: 320px;
   max-width: 100%;
-  margin: 0 auto;
   text-align: center;
   box-sizing: border-box;
   background-color: #210808;
@@ -46,12 +45,13 @@ body {
   display: flex; 
   align-items: center;
   justify-content: center;
- font-size: 1.5em;
+ font-size: 22px;
+ padding-top: 10px;
+ padding-bottom: 10px;
 }
 .section1 {
   min-width: 320px;
   max-width: 100%;
-  margin: 0 auto;
 box-sizing: border-box;
 background-color:none;
 display: flex;
