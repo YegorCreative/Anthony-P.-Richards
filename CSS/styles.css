@@ -12,24 +12,28 @@ body {
     max-width: 100%;
     color: #2d3047;
     font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
   font-size: 18px;
-  background-color: #f8eac5;
+  background-color: #bfbb9c4f;
+  background-image: url("../Assets/pat.png");
+  background-repeat: repeat;
+  
   }
 
   /* 
   colors 
-  #2d3047
-  #93b7be
-  #e0ca3c
-  #048a81
-  #a799b7
+  #E0E3DE 
+   #BFBB9C
+   #656C60
+   #121910
+   #081B21
+   #210808
+   #36454F
+   #000000
    */
-  
 
 
-#myBtn:hover {
-  background-color: #555;
-}
+
 
 .headerRow {
   min-width: 320px;
@@ -37,7 +41,7 @@ body {
   margin: 0 auto;
   text-align: center;
   box-sizing: border-box;
-  background-color: #048a81;
+  background-color: #210808;
   color: white;
   display: flex; 
   align-items: center;
@@ -49,9 +53,11 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 box-sizing: border-box;
-background-color: #93b7be;
+background-color:none;
 display: flex;
-
+flex-direction: column;
+align-items: center;
+justify-content: center;
 
 }
 .rightSide, .leftSide {
@@ -60,7 +66,18 @@ display: flex;
   padding-right: 30px;
 }
 .rightSide img {
-  width: 400px;
+  width: 300px;
+  background-color: #081B21;
+  
+  margin-top: 30px;
+}
+.rightSide {
+  background-color: #081B21;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
 }
 .leftSide {
   display: flex;
@@ -69,7 +86,7 @@ display: flex;
   align-items: center;
 }
 .leftSide p {
-  max-width: 750px;
+  max-width: 1050px;
 }
 .leftSide h1 {
   font-size: 1.5em;
@@ -97,16 +114,26 @@ display: flex;
 .linkss {
   position: relative;
   box-sizing: border-box;
-  font-size: 170px;
+  font-size: 57px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items:center;
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   z-index: 0;
   margin: 10px;
+}
+.linkPlus {
+  width: 130px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin:5px;
+  background-color: white;
 }
 .linkss a {
   color: white;
@@ -117,10 +144,10 @@ display: flex;
   color: white;
 }
 .ones {
-  background-color: #28cfc4;
+  background-color: #656C60;
 }
 .twos {
-  background-color: #048a81;
+  background-color: #656C60;
 }
 
 .svgGif {
@@ -136,7 +163,8 @@ display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: #93b7be;
+  color: white;
+  background-color: #081B21;
   display: flex;
   justify-content: center;
   align-items: center;
