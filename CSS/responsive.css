@@ -27,4 +27,7 @@
     height: 280px;
     font-size: 150px;
   }
+  .footerMain {
+    flex-direction: column;
+  }
 }
