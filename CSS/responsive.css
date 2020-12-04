@@ -29,8 +29,9 @@
   .rightSide img {
     width: 250px;
   }
- 
-
+ .rightSide{
+   font-size: 16px;
+ }
   .linkss {
     width: 130px;
     height: 130px;
