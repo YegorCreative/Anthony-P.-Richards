@@ -47,5 +47,6 @@
   }
   .footerMain {
     flex-direction: column;
+    padding-left: 0;
   }
 }
