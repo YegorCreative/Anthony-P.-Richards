@@ -61,18 +61,18 @@ justify-content: center;
 
 }
 .rightSide, .leftSide {
+  min-width: 320px;
   max-width: 1440px;
   padding-left: 30px;
   padding-right: 30px;
 }
 .rightSide img {
   width: 300px;
-  background-color: #081B21;
-  
   margin-top: 30px;
 }
 .rightSide {
   background-color: #081B21;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -88,7 +88,7 @@ justify-content: center;
 .leftSide p {
   max-width: 1050px;
 }
-.leftSide h1 {
+.rightSide h1 {
   font-size: 1.5em;
 }
 .socialLinks{
@@ -133,7 +133,6 @@ justify-content: center;
   justify-content: flex-start;
   align-items: center;
   margin:5px;
-  background-color: white;
 }
 .linkss a {
   color: white;
