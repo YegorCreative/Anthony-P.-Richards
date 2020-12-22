@@ -73,6 +73,7 @@ body {
   margin-top: 30px;
 }
 .rightSide {
+  box-sizing: border-box;
   background-color:  #6b6958;
   background-image: url("../Assets/Asset.png");
   display: flex;
@@ -82,6 +83,8 @@ body {
   color: white;
   border:7px double gray;
   font-family: 'Bungee Outline', cursive;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .leftSide p {
