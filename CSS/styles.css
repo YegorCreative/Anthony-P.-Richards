@@ -76,6 +76,7 @@ body {
   box-sizing: border-box;
   background-color:  #6b6958;
   background-image: url("../Assets/Asset.png");
+  text-shadow: 2px 2px black;
   display: flex;
   flex-direction: row;
   justify-content: center;
