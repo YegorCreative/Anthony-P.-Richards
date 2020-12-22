@@ -82,7 +82,7 @@ body {
   align-items: center;
   color: white;
   border:7px double gray;
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Fredericka the Great', cursive;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -91,7 +91,8 @@ body {
   max-width: 950px;
 }
 .leftSide h1 {
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Fredericka the Great', cursive;
+  color: grey;
 }
 .leftSide span {
   font-family: 'Fredericka the Great', cursive;
@@ -99,13 +100,11 @@ body {
   max-width: 950px;
 }
 .rightSide h1 {
- 
   font-size: 45px;
- 
-  
 }
 .socialLinks h1 {
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Fredericka the Great', cursive;
+  color: grey;
 }
 .twoTwo {
   width: 100%;
@@ -125,6 +124,8 @@ body {
   min-width: 320px;
   max-width: 650px;
   width: 100%;
+  -webkit-box-shadow: 4px 6px 15px -3px #000000; 
+box-shadow: 4px 6px 15px -3px #000000;
   
 }
 .socialLinks{
