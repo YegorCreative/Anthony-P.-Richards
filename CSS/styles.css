@@ -37,10 +37,11 @@ body {
 
 .headerRow {
   min-width: 320px;
-  max-width: 100%;
+  max-width: 1440px;
+  margin: 10px auto;
   text-align: center;
   box-sizing: border-box;
-  background-color: #210808;
+  background-color: #BFBB9C;
   color: white;
   display: flex; 
   align-items: center;
@@ -51,7 +52,11 @@ body {
  
 }
 
-
+.section1 {
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 10px auto;
+}
 .rightSide, .leftSide {
   min-width: 320px;
   max-width: 100%;
@@ -68,20 +73,56 @@ body {
   margin-top: 30px;
 }
 .rightSide {
-  background-color: #081B21;
+  background-color:  #6b6958;
   background-image: url("../Assets/Asset.png");
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   color: white;
+  border:7px double gray;
+  font-family: 'Bungee Outline', cursive;
 }
 
 .leftSide p {
   max-width: 950px;
 }
+.leftSide h1 {
+  font-family: 'Bungee Outline', cursive;
+}
+.leftSide span {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 25px;
+  max-width: 950px;
+}
 .rightSide h1 {
-  font-size: 1.5em;
+ 
+  font-size: 45px;
+ 
+  
+}
+.socialLinks h1 {
+  font-family: 'Bungee Outline', cursive;
+}
+.twoTwo {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1440px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.slight, .sleft {
+  width: 100%;
+  margin: 10px;
+}
+.Sydney {
+  min-width: 320px;
+  max-width: 650px;
+  width: 100%;
+  
 }
 .socialLinks{
   min-width: 320px;
@@ -143,9 +184,10 @@ body {
 
 .svgGif {
   min-width: 320px;
-  max-width: 1440px;
+  max-width: 800px;
   margin: 0 auto;
 }
+
 .footerMain {
   min-width: 320px;
   max-width: 100%;
@@ -154,7 +196,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: #081B21;
+  background-color: #656C60;
   display: flex;
   justify-content: center;
   align-items: center;
