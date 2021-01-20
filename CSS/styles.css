@@ -10,14 +10,14 @@ body {
     width: 100%;
     min-width: 320px;
     max-width: 100%;
-    color: #2d3047;
-    font-family: 'JetBrains Mono', monospace;
+    color: #fff;
+    font-family: 'Roboto', 'sans-serif';
     font-weight: 500;
-  font-size: 18px;
-  background-color: white;
-  /*background-image: url("../Assets/pat.png");*/
-  background-repeat: repeat;
-  
+    font-size: 18px;
+    background-color: white;
+    /*background-image: url("../Assets/pat.png");*/
+    background-repeat: repeat;
+    background-color: #000000;
   }
 
   /* 
@@ -41,15 +41,18 @@ body {
   margin: 10px auto;
   text-align: center;
   box-sizing: border-box;
-  background-color: #BFBB9C;
+  background-color: #000;
   color: white;
   display: flex; 
   align-items: center;
   justify-content: center;
- font-size: 22px;
- padding-top: 10px;
- padding-bottom: 10px;
- 
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.headerRow span {
+  padding: 0 5px;
 }
 
 .section1 {
@@ -61,7 +64,7 @@ body {
   min-width: 320px;
   max-width: 100%;
   box-sizing: border-box;
-  background-color:none;
+  background-color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,37 +77,37 @@ body {
 }
 .rightSide {
   box-sizing: border-box;
-  background-color:  #6b6958;
-  background-image: url("../Assets/Asset.png");
+  background-color:  #000;
   text-shadow: 2px 2px black;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   color: white;
-  border:7px double gray;
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Dosis', sans-serif;
   padding-left: 15px;
   padding-right: 15px;
+  min-height: 330px;
 }
 
 .leftSide p {
   max-width: 950px;
 }
 .leftSide h1 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Dosis', sans-serif;
   color: grey;
 }
 .leftSide span {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Dosis', sans-serif;
   font-size: 25px;
   max-width: 950px;
 }
 .rightSide h1 {
   font-size: 45px;
+  text-align: center;
 }
 .socialLinks h1 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Dosis', sans-serif;
   color: grey;
 }
 .twoTwo {
@@ -201,7 +204,7 @@ box-shadow: 4px 6px 15px -3px #000000;
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: #656C60;
+  background-color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
