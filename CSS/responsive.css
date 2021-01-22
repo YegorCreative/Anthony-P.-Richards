@@ -36,6 +36,7 @@
     flex-direction: column-reverse;
     justify-content: center;
     font-size: 1em;
+    min-height: 460px;
   }
 
   .rightSide img {
