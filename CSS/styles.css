@@ -5,9 +5,9 @@ This CSS resource incorporates links to font software which is the valuable copy
 html {
   scroll-behavior: smooth;
 }
-.skrollr {
+/* .skrollr {
   overflow-y: auto!important;
-}
+} */
 body {
     margin: 0;
     width: 100%;
@@ -22,7 +22,7 @@ body {
     background-repeat: repeat;
     background-color: #000000;
     overflow-x: hidden;
-    overflow-y: auto!important;
+    /* overflow-y: auto!important; */
   }
 
   /* 
@@ -37,6 +37,49 @@ body {
    #000000
    */
 
+.slideRight{
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;	
+
+    animation-duration: 1s;	
+    -webkit-animation-duration: 1s;
+
+    animation-timing-function: ease-in-out;	
+    -webkit-animation-timing-function: ease-in-out;		
+
+    visibility: visible !important;	
+}
+
+.slideLeft{
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;	
+
+    animation-duration: 1s;	
+    -webkit-animation-duration: 1s;
+
+    animation-timing-function: ease-in-out;	
+    -webkit-animation-timing-function: ease-in-out;		
+
+    visibility: visible !important;	
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(-1500%);
+	}
+	100% {
+		transform: translateX(0%);
+	}	
+}
+
+@keyframes slideRight {
+	0% {
+		transform: translateX(1500%);
+	}
+	100% {
+		transform: translateX(0%);
+	}	
+}
 
 
 

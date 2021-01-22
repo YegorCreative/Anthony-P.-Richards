@@ -9,6 +9,31 @@ setTimeout(function () {
     document.querySelector('.past-name').style.display = 'block';
 }, 2500);
 
+$(window).scroll(function () {
+    $('.animation-right').each(function () {
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow + 450) {
+            $(this).addClass("slideRight");
+        }
+    });
+});
+
+$(window).scroll(function () {
+    $('.animation-left').each(function () {
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow + 450) {
+            $(this).addClass("slideLeft");
+        }
+    });
+});
+
+
+$('.element-to-hide').css('visibility', 'hidden');
+
 // document.querySelector('.Sydney').style.display = 'none';
 // setTimeout(function () {
 //     document.querySelector('.Sydney').style.display = 'block';
