@@ -5,10 +5,8 @@ This CSS resource incorporates links to font software which is the valuable copy
 html {
   scroll-behavior: smooth;
 }
-#skrollr-body {
-    float: left;
-    width: 100%;
-    height: 100%;
+.skrollr-mobile {
+  overflow-y: auto!important;
 }
 body {
     margin: 0;
@@ -24,6 +22,7 @@ body {
     background-repeat: repeat;
     background-color: #000000;
     overflow-x: hidden;
+    overflow-y: auto!important;
   }
 
   /* 
