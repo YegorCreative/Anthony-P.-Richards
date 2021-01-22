@@ -5,9 +5,6 @@ This CSS resource incorporates links to font software which is the valuable copy
 html {
   scroll-behavior: smooth;
 }
-.skrollr-mobile {
-  overflow-y: auto!important;
-}
 .skrollr {
   overflow-y: auto!important;
 }
