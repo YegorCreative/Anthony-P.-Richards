@@ -8,6 +8,9 @@ html {
 .skrollr-mobile {
   overflow-y: auto!important;
 }
+.skrollr {
+  overflow-y: auto!important;
+}
 body {
     margin: 0;
     width: 100%;
