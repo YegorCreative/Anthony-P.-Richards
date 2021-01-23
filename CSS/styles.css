@@ -11,17 +11,17 @@ html {
 body {
     margin: 0;
     width: 100%;
-    min-width: 320px;
-    max-width: 100%;
+    /* min-width: 320px;
+    max-width: 100%; */
     color: #fff;
     font-family: 'Roboto', 'sans-serif';
     font-weight: 500;
     font-size: 18px;
     background-color: white;
     /*background-image: url("../Assets/pat.png");*/
-    background-repeat: repeat;
+    /* background-repeat: repeat; */
     background-color: #000000;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     /* overflow-y: auto!important; */
   }
 
@@ -37,7 +37,7 @@ body {
    #000000
    */
 
-.slideRight{
+/* .slideRight{
     animation-name: slideRight;
     -webkit-animation-name: slideRight;	
 
@@ -79,7 +79,7 @@ body {
 	100% {
 		transform: translateX(0%);
 	}	
-}
+} */
 
 
 
@@ -171,7 +171,7 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  justify-content: center;
   justify-content: flex-end;
   align-items: center;
   min-height: 370px;
