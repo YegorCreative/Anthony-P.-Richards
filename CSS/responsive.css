@@ -51,6 +51,10 @@
   .sleft {
     margin-right: 10px;
   }
+
+  .Sydney {
+    width: 95%;
+  }
 }
 @media screen and (max-width: 500px) {
   .headerRow {

@@ -11,8 +11,8 @@ html {
 body {
     margin: 0;
     width: 100%;
-    /* min-width: 320px;
-    max-width: 100%; */
+    /* min-width: 320px; */
+    /* max-width: 100%; */
     color: #fff;
     font-family: 'Roboto', 'sans-serif';
     font-weight: 500;
@@ -21,7 +21,7 @@ body {
     /*background-image: url("../Assets/pat.png");*/
     /* background-repeat: repeat; */
     background-color: #000000;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     /* overflow-y: auto!important; */
   }
 
