@@ -50,11 +50,14 @@
       <br>
       <div class="twoTwo">
         <div data-aos="fade-right" data-aos-duration="1000" class="slight">
-          <p class="typingText">
+          <!-- <p class="typingText">
             I was born and raised in Sydney, Australia and have lived in Minnesota, USA, since 2005. I worked in
             Chartered/Public Accounting for nearly 14 years and then moved in to Executive Leadership in various
             industries.  I responded to a call on my life to leave the corporate world and pursue ministry in 2004. I
             have been married to Mandy since 1998 and have two children, Emma (b 2003) and George (b. 2007).
+            </p> -->
+            <p class="typingText">
+
             </p>
         </div>
         <div class="sleft" data-aos="fade-left" data-aos-duration="1000">
@@ -230,19 +233,20 @@
     AOS.init(
       {
         // useClassNames: true, 
+        once: true,
       }
     );
 
     
   </script>
-  <!-- <script>
+  <script>
     var i = 0;
     var txt = `I was born and raised in Sydney, Australia and have lived in Minnesota, USA, since 2005. I worked in
             Chartered/Public Accounting for nearly 14 years and then moved in to Executive Leadership in various
             industries.  I responded to a call on my life to leave the corporate world and pursue ministry in 2004. I
             have been married to Mandy since 1998 and have two children, Emma (b 2003) and George (b. 2007).`;
     console.log(txt);
-    var speed = 50;
+    var speed = 20;
     
     function typeWriter() {
       if (i < txt.length) {
@@ -251,7 +255,9 @@
         setTimeout(typeWriter, speed);
       }
     }
-    </script> -->
+
+    window.addEventListener("load", typeWriter);
+    </script>
 
 </body>
 
