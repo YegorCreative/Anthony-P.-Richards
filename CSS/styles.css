@@ -93,7 +93,7 @@ body {
 }
 
 .pastor-image {
-    max-width: 600px;
+    max-width: 730px;
     z-index: 1;
 }
 
@@ -137,6 +137,7 @@ body {
     margin-top: 200px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .long-line {
@@ -161,4 +162,9 @@ body {
 .text-with-info {
     text-align: right;
     margin-right: 80px;
+}
+.theCross {
+  
+    position: absolute;
+    left: 150px;
 }
