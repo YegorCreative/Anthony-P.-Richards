@@ -220,8 +220,8 @@ margin: 25px;
     padding: 5px;
 }
 .message2 {
-  max-width: 500px
-  height: 100%;
+    max-width: 500px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -230,10 +230,46 @@ margin: 25px;
     font-size: 19px;
     border: 3px solid white;
     margin: 25px;
-    }
-    .originBox {
-        width: 100%;
-        box-sizing: border-box;
-        display: flex;
-        
-    }
+    width: 100%;
+}
+.message2 iframe {
+    width: 100%;
+}
+.originBox {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex; 
+    max-width: 1055px;
+    margin: 0 auto;
+}
+.leftOrigin, .rightOrigin {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.originPodcast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.originPodcast a {
+    margin: 12.5px;
+}
+.leftOrigin {
+    width: 40%;
+}
+.footer {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border-top: 2px solid white;
+    margin-top: 100px;
+}
+.footer span {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0 20px;
+}
