@@ -1,0 +1,170 @@
+@media screen and (max-width: 1120px) {
+    .originBox {
+        max-width: 980px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .theCross {
+        left: 100px;
+    }
+    .welcome-from-pastor h2 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .page-header::before, .page-header::after {
+        display: none;
+    }
+    .first-block-wrapper {
+        margin-top: 60px;
+    }
+    .first-desc-wrapper h2 {
+        font-size: 45px;
+    }
+    .page-header {
+        padding-top: 50px;
+    }
+    .circle2 {
+        display: none;
+    }
+    .text-with-info h2 {
+        margin-right: 0;
+    }
+    .long-line {
+        display: none;
+    }
+    .theCross {
+        left: 0;
+        width: 100%;
+        padding: 0 40px;
+        height: 400px;
+        object-fit: contain;
+    }
+    .text-with-info {
+        margin-right: 0;
+    }
+    .footer span {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .page-header {
+        font-size: 25px;
+    }
+    .first-desc-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .banner-background img {
+        height: 855px;
+    }
+    .welcome-from-pastor h2 {
+        margin-left: 0;
+        padding: 20px 20px 180px;
+        margin: 10px 20px;
+    }
+    .pastor-image {
+        max-width: 100%;
+        margin-right: 0;
+        width: auto;
+    }
+    .pastor-image img {
+        left: -70px;
+        position: absolute;
+        transform: scale(1);
+        right: 0;
+        bottom: 30px;
+        width: auto;
+        height: 480px;
+    }
+    .welcome-from-pastor {
+        top: 0;
+        width: 100%;
+        text-align: right;
+    }
+    .welcome-from-pastor h3 {
+        margin-left: 0;
+        margin-right: 40px;
+    }
+    .second-block-wrapper {
+        align-items: flex-start;
+        height: 545px;
+        margin-bottom: 210px;
+    }
+    .pastor-banner-background img {
+        height: 512px;
+    }
+    .br-for-responsive {
+        display: block;
+    }
+    .third-block-wrapper {
+        margin-top: 70px;
+    }
+    .text-with-info h2 {
+        justify-content: center;
+        font-size: 25px;
+    }
+    .text-with-info h3 {
+        text-align: center;
+        font-size: 18px;
+    }
+    .theCross {
+        height: 200px;
+    }
+    .originBox {
+        flex-direction: column;
+    }
+    .leftOrigin, .rightOrigin {
+        width: 100%;
+        align-items: center;
+    }
+    .originPodcast {
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    .footer span {
+        padding: 5px 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .pastor-image img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .page-header {
+        font-size: 18px;
+    }
+    .first-desc-wrapper h2 {
+        font-size: 38px;
+        padding: 10px;
+    }
+    .banner-background img {
+        width: 500px;
+        right: 0;
+        height: 729px;
+    }
+    .second-block-wrapper {
+        margin-top: 100px;
+        height: 470px;
+    }
+    .welcome-from-pastor h2, .welcome-from-pastor h3 {
+        font-size: 22px;
+    }
+    .pastor-banner-background img {
+        height: 436px;
+    }
+    .second-block-wrapper .arrow-down-wrapper {
+        bottom: -120px;
+    }
+}
