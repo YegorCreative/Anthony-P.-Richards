@@ -289,3 +289,12 @@ margin: 25px;
 .br-for-responsive {
     display: none;
 }
+.podcastBlock {
+    padding: 0 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.podcastBlock iframe + iframe {
+    margin-top: 10px;
+}
