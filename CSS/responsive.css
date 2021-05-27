@@ -85,10 +85,6 @@
         width: 100%;
         text-align: right;
     }
-    .welcome-from-pastor h3 {
-        margin-left: 0;
-        margin-right: 40px;
-    }
     .second-block-wrapper {
         align-items: flex-start;
         height: 545px;
@@ -158,7 +154,7 @@
         margin-top: 100px;
         height: 470px;
     }
-    .welcome-from-pastor h2, .welcome-from-pastor h3 {
+    .welcome-from-pastor h2 {
         font-size: 22px;
     }
     .pastor-banner-background img {
