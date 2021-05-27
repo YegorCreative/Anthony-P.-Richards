@@ -295,6 +295,3 @@ margin: 25px;
     margin: 0 auto;
     margin-top: 20px;
 }
-.podcastBlock iframe + iframe {
-    margin-top: 10px;
-}
