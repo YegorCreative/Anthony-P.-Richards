@@ -163,4 +163,7 @@
     .second-block-wrapper .arrow-down-wrapper {
         bottom: -120px;
     }
+    .message2 iframe {
+        height: 200px;
+    }
 }
