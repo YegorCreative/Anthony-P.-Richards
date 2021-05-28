@@ -247,6 +247,7 @@ margin: 25px;
 }
 .message2 iframe {
     width: 100%;
+    border-radius: 12px;
 }
 .originBox {
     width: 100%;
